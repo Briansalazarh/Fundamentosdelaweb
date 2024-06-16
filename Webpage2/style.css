@@ -1,0 +1,216 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+} /* Seleccionar todos los encabezados h1 a h6 */
+#contain {
+
+
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  /* Propiedades generales */
+  margin: 0; /* Eliminar márgenes por defecto */
+  padding: 10px; /* Añadir relleno */
+  text-align: center; /* Centrar el texto */
+  color: #fff; /* Color de texto blanco */
+
+  /* Fondo degradado */
+  background: linear-gradient(#990000, #070d5bda);
+
+  /* Borde y radio de borde */
+  border: 1px solid #660000;
+  border-radius: 5px;
+
+  /* Posicionamiento */
+  display: block;
+}
+
+/* Modificar estilos para h2 */
+h2 {
+  font-size: 18px; /* Reducir tamaño de fuente */
+  font-style: normal; /* Eliminar cursiva */
+}
+
+/* Modificar estilos para h3 */
+h3 {
+  font-size: 16px; /* Reducir tamaño de fuente */
+}
+
+/* Modificar estilos para h4 */
+h4 {
+  font-size: 14px; /* Reducir tamaño de fuente */
+}
+
+/* Modificar estilos para h5 */
+h5 {
+  font-size: 12px; /* Reducir tamaño de fuente */
+}
+
+/* Modificar estilos para h6 */
+h6 {
+  font-size: 10px; /* Reducir tamaño de fuente */
+}
+
+/* Aplicar estilo azul a los elementos con clase "azul" */
+.azul {
+  color: #000099;
+}
+
+/* Aplicar estilo a la h3 con id "h3_id" */
+#h3_id {
+  background-color: #ff0000; /* Cambiar color de fondo */
+}
+
+/* 
+
+FIN DEL FRAGMENTO DE GRADIENTE
+
+
+*/
+header {
+  background-color: #1b1145;
+  display: block;
+  padding: 10px;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  color: #29ec8ea7;
+}
+
+
+header nav a {
+  margin-right: 10px;
+  padding-bottom: 100px;
+  text-decoration: none;
+  color: #fff;
+}
+q
+header nav a:hover {
+  color: #ccc;
+}
+
+section {
+  padding: 20px;
+}
+.slider-container {
+  position: relative; 
+  width: 600px; /* Adjust width as needed */
+  margin: 50px auto;
+}
+
+.slide {
+  display: none;  
+  width: 100%;
+}
+
+.active {
+  display: block; 
+}
+
+.slide img {
+  width: 100%;
+  height: auto; 
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;  
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 15px; 
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prev {
+  left: 20px; 
+  color: blue;
+}
+
+.next {
+  right: 20px;
+  color:red; 
+}
+
+#nosotros h2,
+#servicios h2,
+#contacto h2 {
+    margin-top: 0;
+}
+
+#servicios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#servicios ul li {
+    margin-bottom: 10px;
+}
+
+#contacto {
+
+  border: 100px;
+  border-color: #0e15d1;
+
+}
+#contacto form {
+    width: 50%;
+    margin: 0 auto;
+}
+#contacto h2 {
+  padding: 10px;
+  width: auto;
+  height: 40px;
+  background-color: rgb(97, 11, 11) ;
+  text-align: center;
+  font-size: 35px;
+  font-style:italic;
+  -moz-text-decoration-color: #0e15d1;
+  border: #0e15d1;
+}
+
+#contacto form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contacto form input,
+#contacto form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#contacto form button {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+
+#contacto form button:hover {
+    background-color: #ccc;
+}
+
+#footer {
+  
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(45, 86, 198, 0.282);
+
+}
+#footer h1,
+#footer h3 {
+  text-align: center;
+  font-style: oblique;
+  color: blue;
+  background-color: rgba(15, 15, 64, 0.681);
+}

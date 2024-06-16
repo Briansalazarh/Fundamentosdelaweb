@@ -1,0 +1,154 @@
+<!DOCTYPE html> <!--Nos indica que usamos HTML-->
+<html lang="en"> <!--Indica el idioma-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas con html</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h5>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque optio enim aperiam modi libero neque maxime sequi. Sequi perferendis veritatis ipsam. Eveniet, reprehenderit perferendis minima vero eius quasi aspernatur. Repellat?</p> <!--Parrafo en la pagina-->
+
+    <a href="http://google.com" target="_blank">Enlace</a>
+
+    <p>
+        Etiqueta <strong>Strong</strong> <!--Etiqueta strong pone en negrita las letras--> Etiqueta <em>énfasis</em> <!-- Etiqueta em pone en cursiva las letras-->
+    </p>
+
+    <h2>Lista desordenada</h2>
+        <ul>
+            <li>Frutas</li>
+            <li>Verduras</li>
+            <li>Leche</li>
+        </ul>
+
+    <h2>Lista Ordenada</h2>
+        <ol>
+            <li>Despertar</li>
+            <li>Hacer café</li>
+            <li>Codificar</li>
+        </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tabla 1</th>
+                <th>Tabla 2</th>
+                <th>Tabla 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Columna 1.1</td>
+                <td>Columna 1.2</td>
+                <td>Columna 1.3</td>
+            </tr>
+            <tr>
+                <td>Columna 2.1</td>
+                <td>Columna 2.2</td>
+                <td>Columna 2.3</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--a href="https://youtube.com" target="_blank">
+        <img src="img/falsos 1920.jpg" alt="Falsos amigos">
+    </a-->
+    <img src="img/inu.jpg" alt="Falsos amigos">
+
+    <div>
+        <p>Elemento divisor o seccionado</p>
+    </div>
+
+    <form action="/accion" method="post">
+        <div>
+            <label>Input texto</label>
+            <input type="text" name="Input_texto" value="Nombre">
+            <input type="number" name="Input_numeral" min="1" max="10" placeholder="Edad">
+            <input type="password" name="Input_contraseña" placeholder="Escribe tu contraseña">
+            <input type="date" name="Input_fecha">
+            <input type="emal" name="Input_correo" placeholder="correo electronico">
+        </div>
+
+        <div>
+            <input type="radio" name="Estado_civil" value="Casado" id="input_casado">
+            <label for="input_casado">Casado</label><br>
+            <input type="radio" name="Estado_civil" value="Soltero" id="input_soltero">
+            <label for="input_soltero">Soltero</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="mayor_edad" id="input_edad">
+            <label for="input_edad">¿Eres mayor de edad?</label>
+        </div>
+
+        <div>
+            <textarea name="comentario" cols="50" rows="10"></textarea>
+        </div>
+
+        <div>
+            <select name="hobby">
+                <option>Andar en bici</option>
+                <option>Leer</option>
+                <option>Jugar videojuegos</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <form >
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" >
+        </div>
+        <input type="submit" value="enviar" >
+    </form>
+
+    <div class="tamaño"></div>
+    <div class="background"></div>
+
+    <!--<div class="padre">
+        <div class="hijo">
+
+        </div>
+    </div>-->
+    <p class="texto">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, <span class="texto-diferente">totam dicta. At si</span>milique expedita pariatur velit? Libero, fugiat. <strong>Repudiandae</strong> perferendis deserunt asperiores nihil facere fugit quia molestias eum, ut iusto!
+    </p>
+
+    <div class="box_model">
+        Texto prueba
+    </div>
+
+    <h2 class="inline">Este es un ejemplo 1</h2>
+    <h2 class="inline">Este es un ejemplo 2</h2>
+
+    <a href="#" class="block" >Enlace 1</a>
+    <a href="#" class="block" >Enlace 2</a>
+
+    <div id="div1" class="inline-block"></div>
+    <div id="div2" class="inline-block"></div>
+    <div id="div3" class="inline-block"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+</body>
+</html>

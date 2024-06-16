@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario de Registro Brian</title>
+</head>
+<body>
+	<h1>Mi formulario de registro</h1>
+	
+	<form action="/accion" method="post">
+	<div>	
+		
+        <div>
+
+        <label>Nombre</label>
+        <input type="text" name="Nombre" placeholder="Nombre"></div>
+
+        <br>
+
+        <div>
+
+        <label>Apellido</label>
+        <input type="text" name="Apellido" placeholder="Apellido"></div>
+
+        <br>
+
+        <div>
+
+        <label>Correo</label>
+        <input type="email" name="Correo" placeholder="Correo electronico"></div>
+
+        <br>
+
+        <div>
+
+        <label>Contraseña</label>
+        <input type="password" name="contraseña" placeholder="contraseña"></div>
+
+        <br>
+
+        <div>
+
+        <label>Confirmar contraseña</label>
+        <input type="password" name="Confirmar" placeholder="Confirmar"></div>
+
+        <br>
+
+        <div>
+
+        <label>Cumpleaños</label>
+        <input type="date" name="Cumpleaños"></div>
+
+        <br>
+
+    </div>
+    <div>
+    	<input type="radio" name="genero" value="hombre" id="hombre">
+    	<label for="hombre">hombre</label>
+    	<input type="radio" name="genero" value="mujer" id="mujer">
+    	<label for="mujer">mujer</label>
+    	<input type="radio" name="genero" value="otro" id="otro">
+    	<label for="otro">otro</label><br>
+    </div>
+    <div>
+    	<h4>Una breve descripción de ti</h4>
+    	<textarea name ="comentario" cols= "50" rows="30"></textarea>
+
+    </div>
+    <div>
+    	<label>Lenguaje Favorito</label>
+    	<select name="hobby">
+    		<option>Javascript</option>
+    		<option>Phyton</option>
+    		<option>c++</option>
+    	</select>
+    </div>
+
+    <br>
+
+    <div>
+            <input type="submit" value="Enviar">
+    </div>
+
+	</form>
+
+</body>
+</html>

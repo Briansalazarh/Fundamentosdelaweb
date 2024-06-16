@@ -1,0 +1,102 @@
+.container {
+    width: 970px;
+    height: 600px;
+    padding: 10px;
+    background-color: #1b345d;
+    display: inline-block;
+
+}
+
+.rojo {
+    width: 960px;
+    height: 60px;
+    background-color: #cf3036;
+    margin: bottom 15px;
+    display: block;
+    border-radius: 15px;
+    
+    
+    
+}
+
+.text {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
+    color: #c2d6ec;
+}
+.agua {
+    width: 220px;
+    height: 250px;
+    background-color: #2a7d8c;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    color: #c2d6ec;
+    text-decoration: underline;
+    border-radius: 15px;
+}
+
+.H {
+    position: relative;
+    left: 20px;
+    color: #3dddd8;
+}
+.list {
+    position: relative;
+    bottom: 15px;
+    color: #3dddd8;
+}
+.negro {
+    position: relative;
+    width: 690px;
+    padding: 10px;
+    height: 440px;
+    background-color: rgba(10, 10, 10, 0.76);
+    margin-right: 8px;
+    margin-top: 10px;
+    border-radius:15px ;
+    color: white;
+    left: 255px;
+    bottom: 280px;
+    
+}
+
+.parrafo {
+    position: relative;
+    bottom: 35px;
+    font-size: 12px;
+    left: 10px;
+}
+.lista {
+    font-size: 12px;
+    position: relative;
+    bottom: 30px;
+}
+
+.colorli {
+    color: rgb(28, 205, 229);
+    text-decoration: underline;
+}
+.color1 {
+    color:#797ee5;
+}
+.gris {
+    position: relative;
+    display: inline-block;
+    width: 943px;
+    height: 20px;
+    border-radius: 10px;
+    top: -269px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    bottom: 200px;
+}
+#j {
+    color: #0c22e7;
+    text-decoration: underline;
+}

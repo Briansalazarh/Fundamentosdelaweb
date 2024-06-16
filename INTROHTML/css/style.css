@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* Estilo general para el cuerpo de la página */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados en rojo intenso */
+h1, h2, h3, h4, h5, h6 {
+    color: #ff0000; /* Rojo intenso */
+}
+
+/* Enlaces en rojo intenso */
+a {
+    color: #ff0000; /* Rojo intenso */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tablas con bordes y fondo oscuro */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #1e1e1e; /* Fondo oscuro para tablas */
+}
+
+th, td {
+    border: 1px solid #333; /* Bordes gris oscuro */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333; /* Fondo más oscuro para encabezados */
+}
+
+td {
+    background-color: #1e1e1e; /* Fondo oscuro para celdas */
+}
+
+/* Listas desordenadas y ordenadas en rojo */
+ul, ol {
+    color: #ff0000; /* Rojo intenso */
+    padding-left: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1e1e1e; /* Fondo oscuro para el formulario */
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff0000; /* Rojo intenso */
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333; /* Bordes gris oscuro */
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000; /* Botón rojo intenso */
+    border: none;
+    color: #fff; /* Texto blanco */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Rojo más oscuro en hover */
+}
+
+/* Imágenes con borde rojo intenso */
+img {
+    border: 2px solid #ff0000; /* Borde rojo intenso */
+    display: block;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+/* Div con borde rojo intenso */
+div {
+    border: 1px solid #ff0000; /* Borde rojo intenso */
+    padding: 10px;
+    margin: 10px 0;
+}

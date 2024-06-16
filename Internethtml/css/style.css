@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header>img {
+    width: 80px;
+    position: relative;
+    top: 5px;
+}
+
+header h1 {
+    color: gray;
+}
+
+.blue {
+    /*header > h1 > span*/
+    color: #28659d;
+}
+
+#title_www {
+    background-color: #28659d;
+    color: white;
+    padding: 15px;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+.main_left {
+    width: 210px;
+    display: inline-block;
+    margin: 16px 0px;
+}
+
+.red {
+    color: red;
+}
+
+.main_left h4 {
+    margin-bottom: 20px;
+}
+
+.main_left button {
+    width: 200px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#blue_btn {
+    background-color: #28659d;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#orange_btn {
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+}
+
+#publicity {
+    background-image: url('../images/ad_background.png');
+    padding: 20px 10px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#publicity>img {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+#publicity button {
+    background-color: aquamarine;
+    margin-top: 20px;
+    width: 145px;
+}
+
+.main_right {
+    display: inline-block;
+    vertical-align: top;
+    width: 650px;
+    margin-left: 25px;
+}
+
+.right_header {
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    margin-bottom: 10px;
+}
+
+.dns {
+    color: #28659d;
+    margin-top: 10px;
+}
+
+.dns img {
+    width: 20px;
+}
+
+.telephone {
+    display: flex;
+}
+
+.telephone img {
+    width: 40px;
+    display: inline;
+    margin-right: 6px;
+}
+
+.data>h3 {
+    color: #00c0df;
+    font-size: 20px;
+}
+
+.data>h5 {
+    font-size: 10px;
+}
+
+.right_info {
+
+    font-size: 13px;
+    padding: 10px;
+}
+
+.right_info>ul {
+    margin-left: 20px;
+}
+
+.right_info>ol {
+    margin-left: 20px;
+}
+
+.right_info img {
+    display: flex;
+    width: 230px;
+    margin: 0 auto;
+    
+}
+.right_info h2 {
+
+    color: #104ab4;
+}
+.unorder span {
+    color: #2bbbd1
+}
+.order span {
+    color: #2bbbd1
+}
+.right_footer {
+    width: 600px;
+    outline: 5px solid rgba(9, 81, 238, 0.801);
+    margin: 10px 35px;
+    display: flex;
+}
+.right_footer img {
+    width: 125px;
+    margin-right: 10px;
+}
+.textofooter h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #2bbbd1;
+}
+.textofooter p {
+    font-size: 12px;
+}
+.textofooter > p > span{
+    color: #00c0df;
+}
